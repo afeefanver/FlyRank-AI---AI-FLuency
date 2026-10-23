@@ -1,0 +1,7 @@
+How my page puts my name in the middle and keeps my colors in one place
+
+My whole site right now is one file, index.html. The name sits in the exact center of the screen because of three lines of CSS. I made the page and its body as tall as the screen (height: 100%), then told the body to act like a grid (display: grid) and to put its content in the middle (place-items: center). Without the height line, the body would only be as tall as my text, so “center” would mean the top of the screen.
+
+For colors, I wrote my palette once at the top as named variables, like --main for my teal. Wherever I want teal, I write var(--main). If I change the color later, I edit one line instead of searching the whole file.
+
+The font isn’t on my computer. A link in the page asks Google Fonts to send Space Grotesk, and if that fails the browser falls back to a plain sans-serif.
