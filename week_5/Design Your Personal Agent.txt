@@ -1,0 +1,38 @@
+Design Your Personal Agent
+Type:
+Assignment
+Code:
+FL-06
+Track:
+General AI Fluency
+When:
+Week 5
+Workload:
+4h
+Phase:
+Build
+Details
+Phase: Build (core) | Estimated hours: 4
+
+Why it matters: The capstone is a working personal AI agent, and agents fail at the design stage more often than the build stage. A tight spec is the difference between a 10 hour build and a 30 hour swamp.
+
+Brief:
+
+Choose the job your agent will do for you. Scope it to one job done well: an inbox triager, a research scout, a study coach grounded in your notes, a weekly review assistant. Open proposals welcome if the scope fits roughly 10 build hours.
+Write the spec, one to two pages: job to be done; the user (you) and usage frequency; tools and data needed, with access plan; draft instructions; five eval cases; risks and guardrails (what the agent must confirm, what it must never do).
+Choose your build platform and justify it: Claude Project with connectors and skills, Claude Cowork (paid plans), a custom GPT (paid), an n8n agent workflow, or a scripted agent on the scripting path. Free paths exist; pick one you can actually run.
+Post the spec in the submission section of the assignment.
+Deliverable: The agent design doc, done your way.
+
+Evaluation criteria (pass/revise):
+
+Scope achievable in roughly 10 build hours
+Every tool and data source has a realistic access plan
+Five+ eval cases defined before building
+Guardrails specified for risky or irreversible actions
+Platform choice justified against at least one alternative
+Linked resources:
+
+A Practical Guide to Building Agents (OpenAI, PDF)(opens in a new tab) : when to build an agent, the model-tools-instructions triad, and guardrail design; the guardrails chapter maps directly onto your spec.
+Writing effective tools for agents (Anthropic Engineering)(opens in a new tab) : how to decide what tools an agent needs and describe them so the agent uses them correctly.
+From the resource library: re-read Your AI Product Needs Evals before writing your pre-build eval cases.
