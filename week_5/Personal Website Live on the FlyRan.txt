@@ -1,0 +1,71 @@
+Personal Website Live on the FlyRank Domain
+Type:
+Assignment
+Code:
+PF-04
+Track:
+General AI Fluency
+When:
+Week 5
+Workload:
+6h
+Phase:
+Build
+Details
+Phase: Build (core) | Estimated hours: 6
+
+Why it matters: A personal website is the one profile no platform can take away, and shipping it teaches you hosting, HTTPS, and basic web infrastructure every track benefits from. You build it now on a free host, with a public URL you can send to anyone today.
+
+At the end of the track, once your capstone is approved, you will receive an official FlyRank completion badge to add to your website. The site remains yours, on the hosting setup and domain you choose.
+
+Brief
+Plan a simple site: who you are, what you are building, links to your LinkedIn, GitHub, CV, and booking link, and a space for future posts and capstone work. One page is enough to start.
+
+Build it on a free hosting path. Netlify is the recommended default: Netlify supports this internship program, the free tier covers everything you will do here, HTTPS is automatic, and you can connect your own custom domain later if you choose. GitHub Pages (pairs with PF-05), Cloudflare Pages, and Vercel's free hobby tier are all accepted too. Hand-written HTML, a static site generator, or an AI-assisted build are all fine; you must understand every file you deploy.
+
+Get it live over HTTPS on your host's free URL, then rename the site to something you would put on a CV: yourname.netlify.app, not spontaneous-kitten-3f21.netlify.app. On Netlify that is Site configuration → Change site name. This URL is the deliverable for this assignment.
+
+Write your DNS walkthrough: explain what DNS does, what a CNAME record is, and what actually happens between someone typing a website address and the host answering — resolver, nameserver, record, response. Explain it so a non-technical member of the team could follow it.
+
+You do not need to purchase or configure a custom domain for this assignment. The goal is to understand the infrastructure well enough that, if you connect your own domain in the future, you know what is happening rather than simply following instructions.
+
+Link the site from your LinkedIn profile and CV. Use your live hosting URL. If you later connect your own custom domain, you can update those links.
+
+Your FlyRank completion badge
+Once you successfully complete the track and your capstone is approved, you will receive an official FlyRank completion badge.
+
+Add the badge to your personal website as part of your final capstone update. It serves as recognition that you completed the FlyRank internship program and gives visitors to your site a visible connection between your portfolio work and the program.
+
+Instructions and the badge asset will be provided when your capstone is approved. There is nothing you need to request or configure now.
+
+Deliverable
+Submit:
+
+Your live HTTPS URL on your host's free domain
+Your DNS walkthrough — half a page to a page, in your own words
+Both go in the internship portal on this assignment's card: the URL under Deliverable links, and the walkthrough as a link or attached file.
+
+Evaluation criteria (pass/revise)
+Site live and loading over HTTPS on a clean, public URL, tested logged out in a private window
+Contains your positioning and working links to LinkedIn, GitHub, CV, and booking link
+DNS walkthrough technically correct and clearly written in your own words
+You can explain every file in the deployed site
+Site linked from LinkedIn and CV
+At capstone: official FlyRank completion badge added to the site
+Linked resources
+Netlify, the recommended path
+Deploy on Netlify (FlyRank intern guide)(opens in a new tab) — our own page, from a folder on your laptop to a live URL in about two minutes, plus renaming, Git deploys, custom domains, forms, and the errors everyone hits the first time. Start here.
+Netlify Drop(opens in a new tab) — drag a folder onto the page and get a live HTTPS URL. The fastest possible proof that hosting is not the hard part.
+Get started with Netlify (Netlify Docs)(opens in a new tab) — the official version of the same path, including deploying straight from a Git repo so every push republishes.
+Custom domains (Netlify Docs)(opens in a new tab) — optional reading if you want to connect your own domain later.
+HTTPS and SSL certificates (Netlify Docs)(opens in a new tab) — how the padlock appears on its own and what to do on the rare occasion it does not.
+Domain troubleshooting (Netlify Docs)(opens in a new tab) — useful if you decide to connect your own domain.
+Netlify Forms setup (Netlify Docs)(opens in a new tab) — optional, a working contact form with no server behind it.
+DNS — understand it before you write about it
+What is DNS? (Cloudflare Learning)(opens in a new tab) — a clear explanation of resolvers, nameservers, and records. Read it before writing your walkthrough.
+What is a CNAME record? (Cloudflare Learning)(opens in a new tab) — understand what a CNAME does and when it is used.
+Other accepted hosting paths
+Quickstart for GitHub Pages (GitHub Docs)(opens in a new tab) — a live site from an empty repository in under an hour, no command line needed. Pairs with PF-05.
+Configuring a custom domain for your GitHub Pages site (GitHub Docs)(opens in a new tab) — optional reading if you later connect your own domain.
+Cloudflare Pages getting started (Cloudflare Docs)(opens in a new tab) — the third accepted path, closest to the DNS reading above.
+Getting started with Vercel (Vercel Docs)(opens in a new tab) — the fourth option, if you are already living in that ecosystem.
