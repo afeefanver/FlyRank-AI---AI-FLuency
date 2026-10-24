@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work | Afeef</title>
+  <meta name="description" content="Case studies by Afeef, AI/ML engineer: the problem, what I decided, and what came of it.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F766E'/%3E%3Ctext x='32' y='46' font-family='sans-serif' font-size='40' font-weight='700' text-anchor='middle' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html">Afeef<span>.</span></a>
+      <nav aria-label="Main">
+        <a href="work.html" aria-current="page">Work</a>
+        <a href="about.html">About</a>
+        <a href="cv.pdf">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <h1>Work</h1>
+    <p class="lead">Each case has three parts: the problem, what I did and decided, and what came of it.</p>
+
+    <article class="case" id="case-1">
+      <h2>Version-Aware RAG</h2>
+      <div class="beat">
+        <h3>The problem</h3>
+        <p class="todo">Who had the problem, and what it cost them. Two or three sentences, in your own words.</p>
+      </div>
+      <div class="beat">
+        <h3>What I did and decided</h3>
+        <p class="todo">What you built, and the two or three decisions that mattered most, each with the reason.</p>
+        <!-- Add an architecture diagram and a real screenshot: <img src="images/case-1-architecture.png" alt="Describe what the diagram shows" style="max-width:100%"> -->
+      </div>
+      <div class="beat">
+        <h3>How I tested it</h3>
+        <p class="todo">How you measured it: the test set, the metric, a before and after. Only numbers you can defend.</p>
+      </div>
+      <div class="beat">
+        <h3>What came of it</h3>
+        <p class="todo">One real result with a number you can stand behind, and one honest limitation.</p>
+      </div>
+      <p><a href="https://github.com/afeefanver/Version-Aware-Rag-MVP-Build-">View the code on GitHub</a></p>
+    </article>
+
+    <article class="case" id="case-2">
+      <h2>Mentoring three interns on a live AI product</h2>
+      <p class="muted">Past experience, leading three interns.</p>
+      <div class="beat">
+        <h3>The problem</h3>
+        <p>Three interns were joining a live product with little experience of language models. Dropping them straight into the codebase risked breaking things and teaching them nothing.</p>
+      </div>
+      <div class="beat">
+        <h3>What I did and decided</h3>
+        <p>I put learning before access. Each intern started with small, isolated tasks and reading about how LLMs behave, and only then touched the real code. They worked on three tracks: testing the language model, testing the product, and a capstone AI Note Generator.</p>
+      </div>
+      <div class="beat">
+        <h3>What came of it</h3>
+        <p class="todo">What each track produced, and one thing an intern could do at the end that they couldn't at the start.</p>
+      </div>
+    </article>
+
+    <article class="case" id="case-3">
+      <h2>Multi-Modal RAG Question Answering System</h2>
+      <div class="beat">
+        <h3>The problem</h3>
+        <p>Long reports mix prose and tables, and a plain text splitter loses the structure that makes the numbers meaningful. I wanted a system that could answer questions about a 67-page IMF Article IV report and show where each answer came from.</p>
+      </div>
+      <div class="beat">
+        <h3>What I did and decided</h3>
+        <p>I handled text and tables with semantic chunking and indexed 485 chunks with FAISS. Answers are generated with GPT and carry source-level citations, so a reader can check each claim. I kept the cost under $0.10 per session. Stack: Python, LangChain, FAISS, OpenAI API, Streamlit.</p>
+      </div>
+      <div class="beat">
+        <h3>What came of it</h3>
+        <p class="todo">One real example: a question it answered correctly with its citation, and one it got wrong and why.</p>
+      </div>
+      <p><a href="REPLACE_WITH_MULTIMODAL_RAG_REPO_LINK">View the code on GitHub</a></p>
+    </article>
+
+    <article class="case" id="case-4">
+      <h2>Generative AI Travel Chat Assistant</h2>
+      <div class="beat">
+        <h3>What I built</h3>
+        <p>A conversational travel assistant using validated Prompt Flows in Azure AI Foundry, with GPT-4o deployed as a callable Azure OpenAI endpoint.</p>
+      </div>
+      <p><a href="REPLACE_WITH_TRAVEL_ASSISTANT_REPO_LINK">View the code on GitHub</a></p>
+    </article>
+
+    <section>
+      <p>Want to talk about a role? <a class="cta" href="contact.html">Get in touch</a></p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">&copy; 2026 Afeef &middot; <a href="https://github.com/afeefanver">GitHub</a> &middot; <a href="https://www.linkedin.com/in/afeef-anver-sha-86b389239/">LinkedIn</a></div>
+  </footer>
+</body>
+</html>
